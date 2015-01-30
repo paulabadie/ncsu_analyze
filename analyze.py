@@ -21,8 +21,6 @@ def analyze(filename, outputfile):
     
     plt.tight_layout()
     plt.savefig(outputfile)
-    # plt.show()
-
 
 script = sys.argv[0]
 inputfile = sys.argv[1]
